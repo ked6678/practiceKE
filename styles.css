@@ -1,0 +1,47 @@
+body{
+    background-color:lightgray;
+    color: white;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+background-color: navy;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+}
+.box-model{
+    padding: 15px;
+    background-color: navy;
+    border: white;
+    margin: 20px;
+    
+}
+
+.sidebar{
+    background-color: navy;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#top{
+
+}
+
+.maincontent{
+    margin-left: 220px;
+    padding: 20px;
+
+}
